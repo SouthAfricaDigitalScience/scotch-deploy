@@ -20,7 +20,7 @@ module add xz
 module add  gcc/${GCC_VERSION}
 module add openmpi/${OPENMPI_VERSION}-gcc-${GCC_VERSION}
 
-cd ${WORKSPACE}/${NAME}_${VERSION}
+cd ${WORKSPACE}/${NAME}_${VERSION}/src
 
 # check is giving segfaults
 # LD_LIBRARY_PATH=$PWD/../ make check

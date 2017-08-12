@@ -6,7 +6,7 @@ module add bzip2
 module add xz
 module add  gcc/${GCC_VERSION}
 module add openmpi/${OPENMPI_VERSION}-gcc-${GCC_VERSION}
-cd ${WORKSPACE}/${NAME}_${VERSION}
+cd ${WORKSPACE}/${NAME}_${VERSION}/src
 make realclean
 
 echo "All tests have passed, will now build into ${SOFT_DIR}-gcc-${GCC_VERSION}-mpi-${OPENMPI_VERSION}"
