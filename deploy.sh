@@ -16,7 +16,7 @@ make esmumps
 make ptesmumps
 
 
-make install
+make install prefix=${SOFT_DIR}-gcc-${GCC_VERSION}-mpi-${OPENMPI_VERSION}
 
 echo "Creating the modules file directory ${LIBRARIES}"
 mkdir -p ${LIBRARIES}/${NAME}

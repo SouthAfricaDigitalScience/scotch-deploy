@@ -25,7 +25,7 @@ cd ${WORKSPACE}/${NAME}_${VERSION}/src
 # check is giving segfaults
 # LD_LIBRARY_PATH=$PWD/../ make check
 mkdir -p ${SOFT_DIR}-gcc-${GCC_VERSION}-mpi-${OPENMPI_VERSION}
-make install
+make install prefix=${SOFT_DIR}-gcc-${GCC_VERSION}-mpi-${OPENMPI_VERSION}
 mkdir -p ${REPO_DIR}
 mkdir -p modules
 (
