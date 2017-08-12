@@ -49,4 +49,4 @@ MODULE_FILE
 ) > modules/$VERSION-gcc-${GCC_VERSION}-mpi-${OPENMPI_VERSION}
 
 mkdir -vp ${LIBRARIES}/${NAME}
-cp -v modules/$VERSION ${LIBRARIES}/${NAME}
+cp -v modules/$VERSION-gcc-${GCC_VERSION}-mpi-${OPENMPI_VERSION} ${LIBRARIES}/${NAME}

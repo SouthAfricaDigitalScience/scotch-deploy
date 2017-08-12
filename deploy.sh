@@ -38,4 +38,4 @@ prepend-path LD_LIBRARY_PATH   $::env(SCOTCH_DIR)/lib
 setenv CFLAGS            "-I$::env(SCOTCH_DIR)/include ${CFLAGS}"
 setenv LDFLAGS           "-L$::env(SCOTCH_DIR)/lib ${LDFLAGS}"
 MODULE_FILE
-) > ${LIBRARIES}/${NAME}/${VERSION}
+) > ${LIBRARIES}/${NAME}/${VERSION}-gcc-${GCC_VERSION}-mpi-${OPENMPI_VERSION}
