@@ -84,7 +84,7 @@ tar xzf  ${SRC_DIR}/${SOURCE_FILE} -C ${WORKSPACE} --skip-old-files
 # distributed graph handling.
 
 cd ${WORKSPACE}/${NAME}_${VERSION}/src
-cp ${WORKSPACE}/Makefile.inc.${ARCH}_pc_linux.shlib Makefile.inc
+cp ${WORKSPACE}/Makefile.inc.${ARCH}_pc_linux2.shlib Makefile.inc
 
 make scotch
 make ptscotch
